@@ -4,7 +4,7 @@ import json
 import gspread
 import google.generativeai as genai # <--- 변경: 라이브러리 임포트 변경
 from google.oauth2 import service_account
-from dotenv import load_dotenv # <--- 1. 이 줄을 추가하세요.
+from dotenv import load_dotenv # .env 파일 불러오기
 
 load_dotenv()
 
